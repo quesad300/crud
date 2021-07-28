@@ -8,9 +8,9 @@
 </p>
 
 ##Install
-1.- composer install
-2.- php artisan key:generate
-3.- php artisan migrate
+1.- composer install <br>
+2.- php artisan key:generate <br>
+3.- php artisan migrate <br>
 
 ## About Laravel
 
