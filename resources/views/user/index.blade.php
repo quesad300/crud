@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <table class="table">
+    <table id="tables" class="table">
         <thead>
             <tr>
                 <td>Nombre</td>
