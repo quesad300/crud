@@ -43,9 +43,9 @@ class UsersController extends Controller
         $request->validate([
             'nombre'=>'required|alpha',
             'email'=>'required|email',
-            'edad'=>'required',
-            'sexo'=>'required',
-            'pais'=>'required',
+            'edad'=>'required|numeric',
+            'sexo'=>'required|alpha',
+            'pais'=>'required|alpha',
             'apellido'=>'required|alpha',
         ]);
 
@@ -102,8 +102,8 @@ class UsersController extends Controller
             'nombre'=>'required|alpha',
             'email'=>'required|email',
             'edad'=>'required|numeric',
-            'sexo'=>'required',
-            'pais'=>'required',
+            'sexo'=>'required|alpha',
+            'pais'=>'required|alpha',
             'apellido'=>'required|alpha',
         ]);
 
